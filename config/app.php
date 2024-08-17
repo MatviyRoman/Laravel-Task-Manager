@@ -185,4 +185,14 @@ return [
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
+    /*
+    |--------------------------------------------------------------------------
+    | API Key
+    |--------------------------------------------------------------------------
+    |
+    | This key is used for API authentication. It should be set in your .env
+    | file and used to authenticate API requests.
+    |
+    */
+    'api_key' => env('API_KEY'),
 ];
